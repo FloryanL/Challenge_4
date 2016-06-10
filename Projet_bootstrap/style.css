@@ -1,1 +1,85 @@
 /*commentaires*/
+
+/*font-family: Merriweather|open sans;*/
+
+/*Extra small devices (phones, up to 768px)             xs (pour smartphone 480x320) < 768px
+No media query since this is the default in Bootstrap
+
+Small devices (tablets, 768px and up)                   sm (pour tablette 1024x768) > 768px 
+@media (min-width: @screen-tablet) { ... }
+
+Medium devices (tablets, 992px and up)                  md (pour desktops 1366 x 768) > 992px 
+@media (min-width: @screen-desktop) { ... }
+
+Large devices (large desktops, 1200px and up)           lg (for larger desktops 1200x600) > 1200px
+@media (min-width: @screen-large-desktop) { ... } 
+
+@media (min-width: up to 320px) {
+    body {
+        width: 480px;
+    }
+}
+
+@media (min-width: 768px and up) {
+  body {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px and up) {
+  body {
+    width: 1170px;
+  }
+} */
+
+body {
+    margin: 0;
+}
+
+nav {
+    color: white;
+    font-family: "open sans";
+    font-weight: bold;
+}
+#section1 {
+    background-image: url(Images/header.jpg); 
+    background-size: cover;
+    background-position: center;
+    min-height:100%;
+    min-width: 100%;
+    color: white;
+}
+.header {
+    margin: 25% auto;
+    width: 65%;
+}
+.title_h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "open sans";
+}
+hr {
+    color: #f05f40;
+    width: 5%;
+}
+p {
+    font-family: Merriweather;
+}
+a.btn {
+    background: #f05f40;
+    font-family: "open sans";
+    border-radius: 500px;
+}
+#section2 {
+    background-color: #f05f40;
+}
+#section2 a {
+    background-color: white;
+    color: black;
+}
+.fa {
+    color: #f05f40;
+}
+#section3 {
+    background-color: white;
+}
