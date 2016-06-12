@@ -53,15 +53,14 @@ header {
     background-size: cover;
     background-position: center;
     min-height:100%;
-    min-width: 100%;
     color: white;
 }
 .header {
-    margin: 25% auto;
+    margin: 15% auto;
     width: 65%;
 }
 .title_h1 {
-    font-size: 60px;
+    font-size: 65px;
     font-weight: bold;
     font-family: "open sans";
 }
@@ -73,19 +72,25 @@ header {
 }
 p {
     font-family: Merriweather;
-    opacity: 0.4;
+    opacity: 0.7;
+    font-size: 16px;
 }
 a.btn {
     background: #f05f40;
     font-family: "open sans";
+    font-weight: bold;
     border-radius: 500px;
+    padding: 15px 30px;
+    margin: 5% 43%;
+    border: none;
+}
+a.btn:hover {
+    background: #f05f40;
 }
 #section2 {
     background-color: #f05f40;
-}
-#section2 a {
-    background-color: white;
-    color: black;
+    color: white;
+    padding: 4% 0;
 }
 .hr_section2 {
     border-width: 3px;
@@ -93,15 +98,21 @@ a.btn {
     border-color: white;
     width: 5%;
 }
-.fa {
-    color: #f05f40;
+#section2 a {
+    background-color: white;
+    color: black;
+    margin-top: 1%; 
 }
 #section3 {
     background-color: white;
+    padding: 4% 0;
 }
 .hr_section3 {
     border-width: 3px;
     max-width: 50px;
     border-color: #f05f40;
     width: 5%;
+}
+.fa {
+    color: #f05f40;
 }
