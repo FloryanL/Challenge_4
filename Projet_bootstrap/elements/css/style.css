@@ -1,17 +1,15 @@
-/*commetaires*/
-
-/*font-family:Merriweather|open sans;*/
+/*font-family: 'Merriweather', 'open sans';*/
 
 /*Extra small devices (phones, up to 768px)
 xs (pour smartphone 480x320) > 768px
 @media (min-width:@screen-large-desktop) {...}
 
 Small devices (tablets, 768px and up)
-sm (pour tablette 1024x768) >768px
+sm (pour tablette 1024x768) > 768px
 @media (min-width: @screen-desktop) {...}
 
 Medium devices (tablets, 992px and up)
-md (pour desktops 1366x768) >992px
+md (pour desktops 1366x768) > 992px
 @media (min-width:@screen-desktop) {...}
 
 Large devices (large desktops, 1200px and up)
@@ -21,40 +19,41 @@ lg (for larger desktops 1200x600) > 1200px
 
 @media (min-width: 1200px) {
 
-nav {
-	color:white;
-	font-family:"open sans";
-	font-weight:bold;
+nav a {
+	color: #e7e7e7;
+	font-family: "open sans";
+	font-weight: bold;
 }
 
 .navbar.navbar-default {
-	background-color:transparent;
-	border-color:bold;
+	background-color: transparent;
+	border-color: bold;
+	transition: all .35s;
 }
 
 header {
-	min-height:100%;
+	min-height: 100%;
 }
 .header-inner {
 	max-width: 100%;
 }
 #section1 {
-	background-image: url(Images/header.jpg);
-	background-size:cover;
-	background-position:center;
-	min-height:100%;
-	color:white;
+	background-image: url(../Images/header.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	color: white;
 }
 
 .header {
-	margin:15% auto;
-	width:65%;
+	margin: 15% auto;
+	width: 65%;
 }
 
 .title_h1 {
 	font-size: 60px;
-	font-weight:bold;
-	font-family:"open sans";
+	font-weight: bold;
+	font-family: "open sans";
 }
 
 .hr_section1 {
@@ -65,7 +64,7 @@ header {
 }
 
 p {
-	font-family: Merriweather;
+	font-family: 'Merriweather';
 	opacity: 0.7;
 	font-size: 16px;
 }
@@ -121,30 +120,30 @@ a.btn:hover {
 
 	/*hover image*/
 .hovereffect, .img1, .photo{
-	padding:0!important;
+	padding: 0 !important;
 }
 .hovereffect {
-	width:100%;
-	height:100%;
-	float:left;
-	overflow:hidden;
-	position:relative;
-	text-align:center;
-	cursor:default;
-	background:#f05f40;
-	padding:0!important;
+	width: 100%;
+	height: 00%;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
+	background: #f05f40;
+	padding: 0 !important;
 }
 .hovereffect .overlay {
-	width:100%;
-	height:100%;
-	position:absolute;
-	overflow:hidden;
-	top:0;
-	left:0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
 	padding: 20%;
 }
 .hovereffect .overlay p, .hovereffect .overlay a {
-	font-family:"open sans";
+	font-family: "open sans";
 }
 .hovereffect .overlay a {
 	color: white;
@@ -153,16 +152,16 @@ a.btn:hover {
 }
 
 .hovereffect img {
-	display:block;
-	position:relative;
-	max-width:none;
-	width:calc(100% + 20px);
-	-webkit-transition:opacity 0.35s, -webkit-transform 0.35s;
-	transition:opacity 0.35s, transform 0.35s;
-	-webkit-transform:translate3d(0,0,0);
-	transform:translate3d(0,0,0);
-	-webkit-backface-visibility:hidden;
-	backface-visibility:hidden;
+	display: block;
+	position: relative;
+	max-width: none;
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .hovereffect:hover img {
@@ -190,25 +189,25 @@ a.btn:hover {
 }
 
 .hovereffect img {
-	width:100%;
+	width: 100%;
 }
 
 #section4 {
 	padding:0!important;
 }
 #section5 {
-	background-color:#222222;
-	color:white;
+	background-color: #222222;
+	color: white;
 	padding: 2%;
 }
 #section5 a {
-	background-color:white;
-	color:black;
-	margin-top:1%;
+	background-color: white;
+	color: black;
+	margin-top: 1%;
 }
 #section6 {
-	background-color:white;
-	color:black;
+	background-color: white;
+	color: black;
 	padding: 8% 0;
 }
 .hr_section6 {
@@ -228,7 +227,7 @@ a.btn:hover {
 	text-decoration:underline;
 }
 
-/*ci dessous ce trouve code css pour les animation icon*/
+/*animation icon*/
 
 i {
 	color:#f05f40;
@@ -285,59 +284,59 @@ i {
 @media (min-width: 768px) {
 
 	.title_h1 {
-	font-size: 50px;
-	font-weight: bold;
-	font-family: "open sans";
+		font-size: 50px;
+		font-weight: bold;
+		font-family: "open sans";
 	}
 	.hovereffect {
-	width: 100%;
-	height: 100%;
-	float: left;
-	overflow: hidden;
-	position: relative;
-	text-align: center;
-	cursor: default;
-	background: #f05f40;
-	padding: 0!important;
+		width: 100%;
+		height: 100%;
+		float: left;
+		overflow: hidden;
+		position: relative;
+		text-align: center;
+		cursor: default;
+		background: #f05f40;
+		padding: 0!important;
 	}
 	.hovereffect .overlay {	
-	padding: 15%;
+		padding: 15%;
 	}
 	.hovereffect img {
-	width: 100%;
-	height: 217.5px;
+		width: 100%;
+		height: 217.5px;
 	}
 }
 
 @media (min-width: 320px) {
 	
 	* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
 	}
 	.title_h1 {
-	font-size: 60px;
-	font-weight: bold;
-	font-family: "open sans";
+		font-size: 60px;
+		font-weight: bold;
+		font-family: "open sans";
 	}
 	.header {
-	margin: 15% auto;
-	width: 100%;
+		margin: 15% auto;
+		width: 100%;
 	}
 	.header-inner {
-	max-width: 100%;
+		max-width: 100%;
 	}
 	.hr_section1 {
-	border-width: 5px;
-    max-width: 100px;
-    border-color: #f05f40;
-    width: 60%;
-	margin: 6% auto;
+		border-width: 5px;
+		max-width: 100px;
+		border-color: #f05f40;
+		width: 60%;
+		margin: 6% auto;
 	}
 	p {
-	font-family: Merriweather;
-	opacity: 0.7;
-	font-size: 13px;
+		font-family: 'Merriweather';
+		opacity: 0.7;
+		font-size: 13px;
 	}
 }
